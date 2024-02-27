@@ -13,6 +13,15 @@ This Python script demonstrates the process of extracting data from Twitter usin
 - **Data Processing:** Cleaning and organizing the extracted data.
 - **Output Display:** Displaying the fetched tweets or saving them to a file.
 
+## Requesting the Twitter API
+Twitter API gives us developer access to connect to Twitter and extract or modify data. and Here are the steps to follow to get the Twitter API:
+
+1. Use this link to request an API by providing required inputs. It might take 2-3 hours to get the approval.
+2. Once you get the approval, you will be able to see your project by going to the dashboard.
+3. If you observe clearly, under the ‘Access Token and Secret’, you will be initially having ‘Created with Read Only permissions.
+4. And we need to change this to ‘Read and Write’ for serving our purpose of extracting and writing data.
+5. For this, we choose the Setting tab and click on the edit option in User authentication settings
+
 ## Running the Script
 
 1. Install the required library by running `pip install tweepy` in your Python environment.
